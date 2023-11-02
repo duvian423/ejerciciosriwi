@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(143, 149, 158);
+    margin: 0;
+    color: white;
+}
+.menu{
+    background-color: black;
+    padding-bottom: 30%;
+    font-size: 24px;
+    border: 3px solid white;
+    margin: 4px white ;
+}
+.menu_p{
+    display: flex;
+    padding: 20px;
+
+}
+.nombre{
+    width: 300px; 
+}
+
+.celu{
+    width: 200px;
+}
+.compu{
+    width: 240px;
+}
+.menu_celu1{
+    display: none;
+}
+/*.menu_celu:hover{
+    .menu_celu1{
+        display: block
+    }
+    cursor: pointer;
+}*/
+.menu_compu1{
+    display: none;
+}
+/*.menu_compu:hover{
+    .menu_compu1{
+        display: block;
+    }
+    cursor: pointer;
+}*/
+.menu_hogar1{
+    display: none;
+}
+/*.menu_hogar:hover{
+    .menu_hogar1{
+        display: block;
+    }
+    cursor: pointer;
+    
+}*/
+.enlace{
+    color: white;
+}
+.imagenmapa{
+    width: 300;
+}
+.imagen_electro{
+    width: 100% ;
+    height: 400px;
+    
+}
+.contacto{
+    font-size: 20px;
+}
+.imagenCentral{
+    width: 100%;
+    
+}
+.imagen1{
+    width: 33.3%;
+    ;
+}
+
+

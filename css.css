@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: rgb(119, 115, 115);
+    color: white;
+    
+}
+header{
+    position: fixed;
+    width: 100%;
+    font-size: 30px;
+}
+.menu{
+    text-align:end;
+    background-color: rgb(0,0,0);
+    
+}
+.submenu{
+    display: inline-block;
+    padding: 15px;
+    
+    cursor: pointer;
+    padding-right: 50px;
+
+}
+.subsubmenu{
+    
+    
+    display: none;
+    cursor: pointer;
+    width: 100px;
+    
+    
+}
+
+.submenu:hover .subsubmenu{
+    cursor: pointer;
+    display: block;
+    
+    
+}
+.menu_hogar1{
+    position: absolute;
+    background-color: black;
+    text-align: start;
+    padding-right: 20px;
+    
+}
+.menu_compu1{
+    position: absolute;
+    background-color: black;
+    text-align: start;
+    padding-right: 20px;
+    
+    
+}
+.menu_celu1{
+    position: absolute;
+    background-color: black;
+    text-align: start;
+    padding-right: 20px;
+    
+}
+.enlace{
+    color: white;
+    text-decoration: none;
+
+}
+.submenutitulo{
+    display: inline-block;
+    padding: 15px;
+    float: left;
+    cursor: pointer;
+    padding-right: 400px;
+    align-items: center;
+}
+.imgti{
+    height: 80px;
+}
+@media (max-width:700px) {
+    header{
+        flex-direction: ;
+    }
+}
+
