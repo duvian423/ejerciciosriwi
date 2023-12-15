@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+    
+
+}
+body{
+    font-size: 25px;
+    
+}
+header{
+    margin-left: 200px;
+    
+}
+nav{
+    display: fixed;
+}
+.menupp {
+    
+    
+    display:flex ;
+    padding: 30px;
+    margin-top: 20px;
+    align-items: center;
+    list-style: none;
+    
+}
+
+.nuestro{
+    padding-left: 350px;
+}
+
+.imgwi{
+    width: 200px;
+    
+}
+
+li{
+    padding-right: 60px;
+    
+}
+button{
+    background-color: rgb(107, 76, 232);
+    padding: 10px;
+    border-radius: 10px;
+    border-color: transparent;
+    color: white;
+    font-size: 18px; 
+      
+}
+
+button:hover{
+    cursor: pointer;
+}
+.padre{
+    width: 100%;
+    margin: 50px;
+    margin-left: 200px;
+    margin-right: 1000px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.hijo1{
+    width: 40%;
+    float: left;
+}
+.hijo2{
+    width: 50%;
+    vertical-align: middle;
+    float: left; 
+    
+     
+}
+.img1{
+    width: 400px;  
+    margin-bottom: 100px;
+}
+.p1{
+    font-size: 60px;
+    color: rgb(34, 4, 62); 
+              
+}
+.p2{
+    color: rgba(53, 7, 95, 0.405);
+    
+}
+.p3{
+    font-size: 18px;
+    padding: 100px; 
+    color: rgb(34, 4, 62);  
+}
+.padre2{
+    width: 100%;
+}
+.hija1{
+    width: 30%;
+    margin-left: 120px;
+    float: left;
+    margin-right: 60px;
+    color: rgb(34, 4, 62);
+}
+.hija2{
+    margin-left: 0px;
+    float: left;
+    width: 20%;
+    color: rgb(34, 4, 62);
+    margin-bottom: 100px;
+}
+.hija3{
+    width: 20%;
+    float: left;
+    margin-left: 150px;
+    color: rgb(34, 4, 62);
+}
+.imgtrio{
+    width: 350px;
+}
+h1{
+    margin-bottom: 60px;
+    color: rgb(34, 4, 62);
+}
+.parraf{
+    align-items: center;
+    
+}
+.info{
+    border: solid 2px rgb(120, 99, 225);
+    background-color:white;
+    color: rgb(34, 4, 62);
+}
+.sec1{
+    margin-bottom: 800px;
+    width: 100%;
+}
+.sec2{
+    margin: 200px;
+    background-color: rgb(74, 57, 119);
+    padding: 200px;
+    border-radius: 30px;
+}
+.hijastro1{
+    width: 50%;
+    padding-left: 120px;
+    float: left;
+    position: absolute;
+    left: 70px;  
+}
+.p4{
+    text-align: left;
+    left: 200px;
+    top:0px;
+    position: absolute;
+    bottom: 200px;
+    
+}
+.hijastro2{
+   width: 50%;
+  position: absolute;
+  right: 100px;
+  top: 1850px;
+    
+}
+
+.imgcen{
+    width: 400px;
+}
+
