@@ -1,0 +1,25 @@
+
+.card-body{
+    background-color: white;
+    max-height: 100%;
+}
+.row{
+    height: auto;
+}
+.theme-darck{
+    background-color: rgb(77, 67, 67);
+}
+
+.theme-darck .card-body{
+    background-color: rgb(41, 39, 39);
+    color: white;
+
+}
+.theme-light{
+    background-color: antiquewhite;
+
+}
+.theme-light .card-body{
+    background-color: white;
+    color: black;
+}

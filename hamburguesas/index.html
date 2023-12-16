@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body id="body" class="theme-light">
+    <header>
+        <nav>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <select id="idioma" onchange="idiomapag()" class="form-select">
+                            <option selected  value="">idioma</option>
+                            <option value="ingles">ingles</option>
+                            <option value="español">español</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6">
+                        <select id="color" onchange="colorpag()"  class="form-select">
+                            <option selected  value="">fondo</option>
+                            <option value="oscuro">oscuro</option>
+                            <option value="blanco">blanco</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <img class="img-fluid"  src="./images/hamburguesa-1.webp" alt="">
+                    <div class="card-body ">
+                        <p>$8.900</p>
+                        <p>BBQ crunch</p>
+                        <p id="burger1">1 sandwich BBQ crunch (1 filete de pollo apanado)</p>
+                        <button id="boton1" class="btn btn-danger w-100">comprar</button>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <img class="img-fluid"  src="./images/hamburguesa-2.webp" alt="">
+                    <div class="card-body ">
+                        <p>$15.900</p>
+                        <p>Kentucky sandwich</p>
+                        <p id="burger2">1 Kentucky hamburguesa / sandwich (1 filete de pechuga de pollo apanado ,pepinillos...)</p>
+                        <button id="boton2" class="btn btn-danger w-100">comprar</button>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <img class="img-fluid"  src="./images/hamburguesa-3.webp" alt="">
+                    <div class="card-body ">
+                        <p>$15.900</p>
+                        <p>Combo BBQ crunch</p>
+                        <p id="burger3">1 sandwich BBQ crunch(1 filete de pollo apanado)+ 1 papa pequeña + gaseosa pet...</p>
+                        <button id="boton3" class="btn btn-danger w-100">comprar</button>
+                    </div>
+                </div>
+                <div class="col-md-3 mh-2">
+                    <img class="img-fluid"  src="./images/hamburguesa-4.webp" alt="">
+                    <div class="card-body">
+                        <p>$16.900</p>
+                        <p>Kentucky coronel sandwich</p>
+                        <p id="burger4">1 Kentucky coronel hamburguesa / sandwich (1 filete de pollo de pechuga de pollo apanado, ensalada...)</p>
+                        <button id="boton4" class="btn btn-danger w-100">comprar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-3">
+                    <img class="img-fluid"  src="./images/hamburguesa-5.webp" alt="">
+                    <div class="card-body">
+                        <p>$21.900</p>
+                        <p>Combo Kentucky sandwich</p>
+                        <p id="burger5">1 Kentucky hamburguesa / sandwich (1 filete de pechuga de pollo apanado, pepinillos...)</p>
+                        <button id="boton5" class="btn btn-danger w-100">comprar</button>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <img class="img-fluid"  src="./images/hamburguesa-6.webp" alt="">
+                    <div class="card-body">
+                        <p>$22.900</p>
+                        <p>Combo Kentucky coronel sandwich</p>
+                        <p id="burger6">1 Kentucky coronel hamburguesa / sandwich (1 filete de pechuga de pollo apanado, ensalada...)</p>
+                        <button id="boton6" class="btn btn-danger w-100">comprar</button>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <img class="img-fluid"  src="./images/hamburguesa-7.webp" alt="">
+                    <div class="card-body">
+                        <p>$23.900</p>
+                        <p>sandwich crispy BBQ</p>
+                        <p id="burger7">1 sandwich crispy BBQ (1 filete de pechuga extra grande, triple empanizado, cebolla crisp...)</p>
+                        <button id="boton7" class="btn btn-danger w-100">comprar</button>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <img class="img-fluid"  src="./images/hamburguesa-8.webp" alt="">
+                    <div class="card-body">
+                        <p>$29.900</p>
+                        <p>Combo sandwich crispy BBQ</p>
+                        <p id="burger8">1 sandwich crispy BBQ (1 filete de pechuga extra grande, triple empanizado, cebolla crisp...)</p>
+                        <button id="boton8" class="btn btn-danger w-100">comprar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
