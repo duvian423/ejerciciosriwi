@@ -1,0 +1,57 @@
+body{
+    background-image: url(https://cdn2.melodijolola.com/media/files/harry-potter-hogwarts-mystery-is-confusing-players-about-est_35tx.jpg);
+    background-size: cover;
+}
+.p-bienvenida{
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 5px rgb(234, 190, 63),
+    0 0 25px rgb(234, 190, 63),
+    0 0 50px rgb(234, 190, 63),
+    0 0 100px rgb(234, 190, 63);
+   
+}
+.sombrero{
+    font-size: 35px;
+    color: white;
+    margin-bottom: 100px;
+    text-align: center;
+    text-shadow: 0 0 5px rgb(234, 190, 63),
+    0 0 25px rgb(234, 190, 63),
+    0 0 50px rgb(234, 190, 63),
+    0 0 100px rgb(234, 190, 63);
+}
+.card{
+    text-align: center;
+    display: grid;
+    place-items: center;
+    background-color: black;
+    padding: 20px;
+    font-size: 20px;   
+}
+.p-prin{
+    color: white;
+    text-shadow: 0 0 5px rgb(234, 190, 63),
+    0 0 25px rgb(234, 190, 63),
+    0 0 50px rgb(234, 190, 63),
+    0 0 100px rgb(234, 190, 63);
+}
+.td{
+    background-color: black;
+    border: 3px solid black;
+    
+}
+.col-md-12, .button{
+    text-align: center;
+    margin-top: 20px;
+}
+button{
+    background-color: black;
+    border-radius: 30px;
+    color: white;
+    text-shadow: 0 0 5px rgb(234, 190, 63),
+    0 0 25px rgb(234, 190, 63),
+    0 0 50px rgb(234, 190, 63),
+    0 0 100px rgb(234, 190, 63);
+}

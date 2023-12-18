@@ -1,0 +1,49 @@
+body{
+    background-image: url(https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2019/08/harry-potter-escuela-hogwarts.jpg?tf=3840x);
+    background-size: cover;
+}
+.container{
+    height: auto;
+    display: grid;
+    place-items: center;
+    margin-top: 200px;
+    text-align: center;
+}
+td{
+    font-size: 30px;
+    
+}
+.body-card {
+    
+    color: white;
+    border: 2px solid rgb(234, 190, 63);
+}
+.titulo{
+    font-size: 100px;
+    color: rgb(234, 190, 63);
+    text-shadow: 0 0 5px rgb(245, 244, 242),
+    0 0 25px rgb(242, 241, 239),
+    0 0 50px rgb(246, 245, 243),
+    0 0 100px rgb(252, 251, 249);
+}
+.p-prin{
+    background-color: black;
+}
+.p-login{
+    font-size: 50px;
+    color: rgb(234, 190, 63);
+    text-shadow: 0 0 5px rgb(245, 244, 242),
+    0 0 25px rgb(242, 241, 239),
+    0 0 50px rgb(246, 245, 243),
+    0 0 100px rgb(252, 251, 249);
+}
+.boton{
+    background-color: rgb(234, 190, 63);
+    margin-top: 30px;
+    border-radius: 30px;
+    padding : 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,10 @@
+body{
+    background-image: url(https://efeagro.com/wp-content/uploads/2022/06/Szkola-Czarodziejow-Zamek-Czocha5.jpg);
+    background-size: cover;
+}
+h1{
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+}
