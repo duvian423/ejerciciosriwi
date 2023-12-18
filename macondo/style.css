@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+img{
+    width: 600px;
+    height: 600px;
+}
+body{
+    background-color: black;
+}
+header{
+    background-image: url(https://liberoamerica.files.wordpress.com/2018/08/cien-ac3b1os-de-soledad.png);
+    background-position: center;
+    color: white;
+    text-align: center;
+    font-size: 70px;  
+    height: 500px;
+}
+.padre1{
+    margin-top: 600px;
+    margin-bottom: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 1200px;
+    margin: auto;
+    height: 600px;
+    column-gap: 5px;
+}
+.hijo1,.hijo2,.hijo3{
+    /*border: 2px solid black;*/
+    display: grid;
+    text-align: center;
+    place-items: center;
+    border-radius: 20px;
+}
+/*
+.hijo1:hover{
+    border: 5px solid rgba(231, 49, 4, 0.623);
+}
+.hijo2:hover{
+    border: 5px solid rgba(231, 49, 4, 0.623);
+}
+.hijo3:hover{
+    border: 5px solid rgba(231, 49, 4, 0.623);
+}
+*/
+.hijo1{
+    background-image: url(https://alcubo.com.co/wp-content/uploads/2021/07/viajar-focus-0-0-983-557.jpeg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.hijo2{
+    background-image: url(https://www.ngenespanol.com/wp-content/uploads/2022/09/medellin-la-ciudad-colombiana-de-la-eterna-primavera.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.hijo3{
+    background-image: url(https://supercurioso.com/wp-content/uploads/2018/11/Pre%CC%81stamos-di%CC%81a-de-pago.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.p-hijo{
+    font-size: 40px; 
+}
+.p-comida{
+    font-size: 50px;
+    margin-top: 100px;
+    color: white;
+}
+.sele{
+    height: 100px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+select{
+    padding: 20px;
+    font-size: 18px;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 20px;
+}
+select,option{
+    color: black;
+}
+.sele-comida{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    height: 800px;
+}
+.p-mal{
+    margin-top: 30px;
+}
+.padre2{
+    
+    font-size: 40px;
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    border-top: 5px solid white; 
+    border-bottom: 5px solid white; 
+}
+.subhijo1{
+    margin-top: 100px;
+}
+.subhijo2{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.subhijo3{
+    margin-bottom: 80px;
+}
+.hijo1-2, .hijo1-3, .hijo1-4{
+    margin-bottom: 50px;
+}
+input{
+    padding: 20px;
+    color: black;
+    font-size: 18px;
+}
+button{
+    background-color: white;
+    color: black;
+    padding: 20px;
+    font-size: 18px;
+    margin-bottom: 100px;
+}
+button:hover{
+    cursor: pointer;
+}
+.inputValid{
+    border: 4px solid green;
+}
+.inputInvalid{
+    border: 4px solid red;
+}
+.spanRojo{
+    color: red;
+}
+.spanVerde{
+    color: green;
+}
+.padre3{
+    font-size: 40px;
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    margin-top: 100px;
+    border-bottom: 5px solid white; 
+}
+.wifi{
+    margin-bottom: 100px;
+}
+.p-wifi{
+    margin-bottom: 100px;
+}
+.inputcontra{
+    margin-bottom: 50px;
+}
+.botonWifi{
+    margin-bottom: 10px;
+}
+.fa-solid{
+    color: black;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        
+    </header><br><br>
+    <div class="padre1">
+        <div class="hijo1" >
+            <p class="p-hijo">Hildebrando está alistando todo para poder viajar a Macondo, el sale de trabajar el día
+            viernes, y tiene un vuelo en la noche,</p>
+        </div>
+    
+        <div class="hijo2" >
+            <p class="p-hijo">pero el vuelo tiene escala en Medellín.</p>
+        </div>
+        <div class="hijo3" >
+            <p class="p-hijo">Ese mismo día le pagan a Hildebrando, a Hildebrando le pagan 2.500.000.</p>
+        </div>
+
+    </div>
+    <div>
+        <p class="p-comida">día viernes, Hildebrando llega al aeropuerto del dorado, se quiere comprar algo de
+            comer antes del vuelo, ya que hace escala en Medellín en la madrugada, y llegaría en la
+            mañana a Cartagena las opciones que tiene Hildebrando:
+        </p>
+    </div>
+    <div class="sele">
+        <select onclick="comidas()" name="Que comera Hildebrando" id="op-comidas">
+            <option value="" disabled selected>¿Que comera Hildebrando?</option>
+            <option value="mal"> si compra una almojábana con gaseosa... que vale...  $15.000</option>
+            <option value="llenito"> un subway con gaseosa...  que vale...  $23.000</option>
+            <option value="hambre"> no compra nada</option>
+        </select>
+    </div>
+    <div class="sele-comida" id="sele-comida">
+    
+    </div>
+    <div class="padre2">
+        <div class="hijo1-1">
+            <div class="subhijo1">
+                <h2>La Maleta</h2>
+            </div>
+            <div class="subhijo2">
+                <p>
+                    llega a la sala de espera, y revisa su maleta que no cumple con el tamaño de maleta de
+                    mano, la aerolínea tiene el tamaño normal para las maletas de mano, 55 cm (alto) x 40
+                    cm (largo) x 20 cm (ancho), y Hildebrando que va a abordar tiene una maleta de 60 cm
+                    (alto) x 40 cm (largo)x 20x cm.
+                </p>
+            </div>
+            <div class="subhijo3">
+                <h2>Ingresa los diametros de la maleta</h2>
+            </div>
+        </div>
+        <div class="hijo1-2">
+            <h4>Alto maleta</h4>
+            <input id="alto" type="text"><br>
+            <span id="spanAlto"></span>
+        </div>
+        <div class="hijo1-3">
+            <h4>ancho maleta</h4>
+            <input id="ancho" type="text"><br>
+            <span id="spanAncho"></span>
+        </div>
+        <div class="hijo1-4">
+            <h4>Fondo maleta</h4>
+            <input id="fondo" type="text"><br>
+            <span id="spanFondo"></span> 
+        </div>
+        <div>
+            <button onclick="diametroMaleta()">Ingresar</button>
+        </div>
+
+    </div>
+    <div class="padre3">
+        <div><h2 class="wifi">El WIFI</h2></div>
+        <div>
+            <p class="p-wifi">ahora que Hildebrando se dirige a la ciudad de Medellín, llega a las 2 am, y debe abordar
+                a las 3 am para Macondo, se encuentra con el problema de que el wifi del aeropuerto
+                está fallando, y necesita asegurar su reserva en el hotel para el siguiente día, caminando
+                por el aeropuerto encuentra wifi, la red se llama " ElPassEs:
+                01110010_01101001_01110111_01101001", pero la contraseña está cifrada en números
+                binarios, además cobran 50.000 la hora.
+            </p>
+        </div>
+        <div>
+            <h3 class="contraseña"> Ingresa la contraseña </h3>
+            <input class="inputcontra" type="text"><br>
+            <button onclick="wifi()" class="botonWifi">Ingresa</button><br>
+            <i class="fa-solid fa-wifi"></i>
+
+        </div>
+    </div>
+    
+
+
+
+
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
